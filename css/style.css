@@ -100,9 +100,11 @@ footer div{
 .footer_nav li{
     text-decoration: none;
     list-style-type: none;
-    margin: 0;
-    text-align: left;
 }
+
+a:link {color: rgb(238, 238, 239);}
+a:visited{color:rgb(127, 175, 198)}
+
 
 #sec-nav{flex: 1;}
 #info{flex: 1;}
