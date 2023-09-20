@@ -1,6 +1,4 @@
 /*GLOBAL*/
-
-
 body {
     margin: 0;
 }
@@ -10,17 +8,19 @@ body {
     background-color: rgb(31, 31, 76);
     text-align: center;
     padding: 10px;
+    margin: 0;
  }
 
  .wrapper{
     max-width: 960px;
     border: solid 1px black;
     margin: 0 auto;
+    background-color: rgb(70, 55, 83);
  }
 
 /*HERO*/
 .hero{
-    background-image: url(../images/hero-img.png);
+   background-image: url(../images/hero-img.png);
    background-size: cover;
    background-position: center;
    min-height: 450px; 
@@ -33,7 +33,6 @@ body {
 
 .hero h2{
     text-align: left;
-
     width: 350px ; 
     /* min-width: 400px; if we use this, it will spread the purple bg behind the text to the whole screen. we used the width here just so only the area behind the text remains purple  
     also, if you use the margin feature that is shown in the comment below, then use min width to put small purple bg behind the text but in the middle of the screen instead */
@@ -64,6 +63,7 @@ body {
     margin: 0%;
 
 }
+
 .gallery-images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -88,11 +88,20 @@ footer{
 
 footer div{
     margin: 10px;
-    padding: 10px;
+    padding: 10px; 
+}
+
+.footer_nav{
+    margin: 0;
+    text-align: left;
+    padding: 0;
 }
 
 .footer_nav li{
     text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
 }
 
 #sec-nav{flex: 1;}
