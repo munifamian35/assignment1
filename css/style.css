@@ -83,13 +83,16 @@ footer{
     background-image: url(../images/gallery-heading-bg.png);
     display: flex;
     padding:15px;
-    background-color: rgb(94, 41, 90);
     color: aliceblue;
 }
 
 footer div{
     margin: 10px;
     padding: 10px;
+}
+
+.footer_nav li{
+    text-decoration: none;
 }
 
 #sec-nav{flex: 1;}
